@@ -1,9 +1,9 @@
 {
-  "name": "sembo-cv-project",
+  "name": "cv-web-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nfmdev.github.io/sembo-cv-project",
+  "homepage": "https://nfmdev.github.io/cv-web-app",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
