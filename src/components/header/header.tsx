@@ -1,5 +1,5 @@
 import './header.css';
-import { FaGithub, FaLinkedin, FaEnvelope, FaFileDownload } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaFileDownload, FaCode } from 'react-icons/fa';
 import avatarImg from '../../assets/Fiorito.jpeg';
 import resumePdf from '../../assets/Nico_Fiorito_Resume_Full_Stack.pdf';
 
@@ -37,6 +37,14 @@ export function Header() {
             >
               <FaLinkedin />
               <span>LinkedIn</span>
+            </a>
+            <a
+              href="mailto:nicofioritom@gmail.com"
+              className="hero-button secondary"
+              aria-label="Portfolio"
+            >
+              <FaCode />
+              <span>Portfolio</span>
             </a>
             <a
               href="mailto:nicofioritom@gmail.com"

@@ -1,12 +1,18 @@
 import { GitHubIcon, LinkedInIcon } from '../../../shared/icons';
 import './contact.css';
-import { Mail } from 'lucide-react';
+import { FolderCodeIcon, Mail } from 'lucide-react';
 export const Contact = () => {
     return (
         <div className="contact-card">
             <h3>Get in Touch</h3>
             <p>Feel free to reach out through any of the following channels:</p>
             <ul className="contact-list">
+                <li>
+                    <a href="https://nfmdev.github.io/portfolio" target="_blank" rel="noopener noreferrer">
+                        <FolderCodeIcon className="contact-icon" />
+                        Portfolio
+                    </a>
+                </li>
                 <li>
                     <a href="mailto:nicofioritom@gmail.com" target="_blank" rel="noopener noreferrer">
                         <Mail className="contact-icon" />
